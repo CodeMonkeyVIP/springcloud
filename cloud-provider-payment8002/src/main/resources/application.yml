@@ -7,9 +7,12 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://sdcnppuat01.chowsangsang.com:3306/expressdv?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
-    username: sys_dv
-    password: sys_dv
+#    url: jdbc:mysql://sdcnppuat01.chowsangsang.com:3306/expressdv?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
+#    username: sys_dv
+#    password: sys_dv
+    url: jdbc:mysql://192.168.3.240:3306/spring_cloud?useUnicode=true&characterEncoding=UTF8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: 12345678
 
 mybatis:
   mapper-locations: classpath*:mapper/*.xml
