@@ -26,5 +26,4 @@ eureka:
     instance-id: payment8001
     #    显示IP
     prefer-ip-address: true
-    eureka.
 
