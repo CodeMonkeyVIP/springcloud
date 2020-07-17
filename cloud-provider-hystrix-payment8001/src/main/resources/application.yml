@@ -14,7 +14,7 @@ eureka:
     register-with-eureka: true
   instance:
     #    显示主机名
-    instance-id: payment8001
+#    instance-id: payment8001
     #    显示IP
     prefer-ip-address: true
 
