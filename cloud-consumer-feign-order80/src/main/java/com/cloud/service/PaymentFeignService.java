@@ -8,13 +8,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-/**
- * Description :
- * Author      : Guojingbin
- * Create      : 2020.7.16 18:09
- * Version     : 1.0
- */
-
 @Component
 //调用哪个服务中的接口
 @FeignClient(value = "CLOUD-PAYMENT-SERVICE")
