@@ -9,3 +9,6 @@ eureka:
     fetch-registry: true
     register-with-eureka: false
 
+feign:
+  hystrix:
+    enabled: true
