@@ -4,13 +4,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
-/**
- * Description :
- * Author      : Guojingbin
- * Create      : 2020.7.22 16:03
- * Version     : 1.0
- */
-
 @SpringBootApplication
 @EnableConfigServer
 public class ConfigCenterMain3344 {

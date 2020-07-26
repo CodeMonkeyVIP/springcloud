@@ -11,13 +11,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
 
-/**
- * Description :
- * Author      : Guojingbin
- * Create      : 2020.7.21 18:35
- * Version     : 1.0
- */
-
 @Component
 @Slf4j
 public class MyLogGateWayFilter implements Ordered, GlobalFilter {

@@ -11,13 +11,6 @@ import org.springframework.cloud.stream.messaging.Source;
 import org.springframework.integration.support.MessageBuilder;
 import org.springframework.messaging.MessageChannel;
 
-/**
- * Description :
- * Author      : Guojingbin
- * Create      : 2020.7.24 11:42
- * Version     : 1.0
- */
-
 @EnableBinding(Source.class)  //定义消息的推送管道
 public class IMessageProviderImpl implements IMessageProvider {
 
